@@ -33,8 +33,10 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 It may be that some packages are not available in the main conda repositories for your platform.
 In that case you may need to add additional channels.
 
+Make sure that you execute the commands below in the specific bigdata environment created above
 ```bash
 # conda config --prepend channels conda-forge
+# ensure you are in big data environment using conda activate bigdata
 conda config --set channel_priority false
 conda install --yes --file requirements.txt
 ```
