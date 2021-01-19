@@ -8,7 +8,7 @@ dash-renderer>=1.6.0
 dash-html-components>=1.0.3
 dash-core-components>=1.10.2
 numpy
-jupyterLab
+jupyterlab
 pandas
 joblib
 matplotlib
